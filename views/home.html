@@ -1,0 +1,73 @@
+<h1> Country Application</h1>
+
+<h3>Top n countries by population</h3>
+<form method="POST" action="/countries/population/top">
+    <label for="top">Top n</label><br>
+    <input type="text" id="top" name="top"><br>
+    <label for="revers">Reverse to min</label>
+    <input type="checkbox" id="revers" name="reverse"><br>
+    <button type="submit">View</button>
+</form>
+
+<h3>Top n countries by area</h3>
+<form method="POST" action="/countries/area/top">
+    <label for="top">Top n</label><br>
+    <input type="text" id="top" name="top"><br>
+    <label for="revers">Reverse to min</label>
+    <input type="checkbox" id="revers" name="reverse"><br>
+    <button type="submit">View</button>
+</form>
+
+<h3>Top n countries by population to area ratio</h3>
+<form method="POST" action="/countries/population_area_ratio">
+    <label for="top">Top n</label><br>
+    <input type="text" id="top" name="top"><br>
+    <label for="revers">Reverse to min</label>
+    <input type="checkbox" id="revers" name="reverse"><br>
+    <button type="submit">View</button>
+</form>
+
+<h1>Cooperation with corona API</h1>
+
+<h3>View the country statistics in compare to rest of world</h3>
+<form method="POST" action="/corona/world">
+    <label for="country">Country</label><br>
+    <input type="text" id="country" name="country"><br>
+    <button type="submit">View</button>
+</form>
+
+<h3>Top n countries by deaths per population count</h3>
+<form method="POST" action="/corona/countries/population/death/top">
+    <label for="top">Top n</label><br>
+    <input type="text" id="top" name="top"><br>
+    <label for="revers">Reverse to min</label>
+    <input type="checkbox" id="revers" name="reverse"><br>
+    <button type="submit">View</button>
+</form>
+
+<h3>Top n countries by cases per population</h3>
+<form method="POST" action="/corona/countries/population/cases/top">
+    <label for="top">Top n</label><br>
+    <input type="text" id="top" name="top"><br>
+    <label for="revers">Reverse to min</label>
+    <input type="checkbox" id="revers" name="reverse"><br>
+    <button type="submit">View</button>
+</form>
+
+<h3>Top n countries by deaths per area</h3>
+<form method="POST" action="/corona/countries/area/death/top">
+    <label for="top">Top n</label><br>
+    <input type="text" id="top" name="top"><br>
+    <label for="revers">Reverse to min</label>
+    <input type="checkbox" id="revers" name="reverse"><br>
+    <button type="submit">View</button>
+</form>
+
+<h3>Top n countries by cases per area</h3>
+<form method="POST" action="/corona/countries/area/cases/top">
+    <label for="top">Top n</label><br>
+    <input type="text" id="top" name="top"><br>
+    <label for="revers">Reverse to min</label>
+    <input type="checkbox" id="revers" name="reverse"><br>
+    <button type="submit">View</button>
+</form>
